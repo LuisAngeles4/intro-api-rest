@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Intro API REST - CRUD IoT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>API REST - Dispositivos IoT</h1>
+
+  <section class="formulario">
+    <h2>Agregar / Editar dispositivo</h2>
+
+    <input type="hidden" id="deviceId">
+
+    <input type="text" id="nombre" placeholder="Nombre del dispositivo">
+    <input type="text" id="ubicacion" placeholder="Ubicación">
+    <input type="text" id="estado" placeholder="Estado">
+
+    <button onclick="guardarDispositivo()">Guardar</button>
+    <button onclick="limpiarFormulario()">Cancelar</button>
+  </section>
+
+  <section>
+    <h2>Lista de dispositivos</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Ubicación</th>
+          <th>Estado</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody id="tablaDispositivos"></tbody>
+    </table>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

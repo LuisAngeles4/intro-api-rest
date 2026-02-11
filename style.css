@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.formulario {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 400px;
+  border-radius: 8px;
+}
+
+.formulario input {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+button.editar {
+  background-color: #ffc107;
+  border: none;
+}
+
+button.eliminar {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+}
